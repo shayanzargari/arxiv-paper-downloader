@@ -21,7 +21,7 @@ cd <repository-directory>
 ##  Configuration ⚙️
 Edit the script to include your Gmail credentials (`your_email@gmail.com` and `your_password`). Use App Passwords for added security if 2-Step Verification is enabled.
 
-Specify the directory for saving PDFs by updating the `save_path variable` in the script.
+Specify the directory for saving PDFs by updating the `save_path` variable in the script.
 
 ##  Detailed Code Explanation 📖
 The script's workflow includes:
