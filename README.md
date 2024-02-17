@@ -6,7 +6,8 @@ This Python script automates the process of downloading PDF attachments from ema
 
 - Python 3.x
 - `requests` library for making HTTP requests to download PDFs.
-- Access to a Gmail account with IMAP enabled.
+- Access to a Gmail account with IMAP enabled. Activate IMAP in your Gmail settings under the "Forwarding and POP/IMAP" section to allow the script to access your emails.
+
 
 ## Setup Instructions 🚀
 
@@ -16,11 +17,6 @@ Clone the script's repository to your local machine and navigate to the director
 git clone <repository-url>
 cd <repository-directory>
 ```
-
-## Enable IMAP in Gmail:
-
-Activate IMAP in your Gmail settings under the "Forwarding and POP/IMAP" section to allow the script to access your emails.
-
 
 ##  Configuration ⚙️
 Edit the script to include your Gmail credentials (`your_email@gmail.com` and `your_password`). Use App Passwords for added security if 2-Step Verification is enabled.
