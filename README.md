@@ -2,20 +2,6 @@
 
 This Python script automates the process of downloading PDF attachments from emails sent by `no-reply@arxiv.org`, and storing them in a designated directory. It utilizes the Internet Message Access Protocol (IMAP) to interact with a Gmail account, filters for emails from the specified sender, parses the email content for PDF links and then downloads those documents.
 
-## Features
-
-- **Email Searching:** Efficiently filters and identifies emails in the inbox originating from `no-reply@arxiv.org`.
-- **PDF Extraction and Downloading:** Scans the content of each filtered email to locate links to PDF documents, which are then downloaded.
-- **Filename Sanitization:** Cleans filenames to ensure they are safe and compatible with the operating system.
-- **Logging:** Records all operations, including successful actions and errors, aiding in troubleshooting and monitoring.
-
-## Features 🌟
-
-- **Email Searching:** 🕵️ Efficiently filters and identifies emails in the inbox originating from `no-reply@arxiv.org`.
-- **PDF Extraction and Downloading:** 📖 Scans the content of each filtered email to locate links to PDF documents, which are then downloaded.
-- **Filename Sanitization:** ✨ Cleans filenames to ensure they are safe and compatible with the operating system.
-- **Logging:** 📋 Records all operations, including successful actions and errors, aiding in troubleshooting and monitoring.
-
 ## Requirements 🛠️
 
 - Python 3.x
@@ -40,7 +26,6 @@ Activate IMAP in your Gmail settings under the "Forwarding and POP/IMAP" section
 Edit the script to include your Gmail credentials (`your_email@gmail.com` and `your_password`). Use App Passwords for added security if 2-Step Verification is enabled.
 
 Specify the directory for saving PDFs by updating the `save_path variable` in the script.
-
 
 ##  Detailed Code Explanation 📖
 The script's workflow includes:
